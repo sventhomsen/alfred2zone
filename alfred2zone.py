@@ -13,7 +13,7 @@ prefix = IPv6Network('2a03:2267:4e6f:7264::/64')
 data = json.load(sys.stdin)["nodes"].values()
 
 print("""$TTL 600  ; 10 minutes
-@     IN SOA  vpn0.ffnord. admin@ffnord.net. (
+@     IN SOA  vpn3.ffnord. admin@ffnord.net. (
           %i ; serial
           600        ; refresh (10min)
           30         ; retry (30s)
